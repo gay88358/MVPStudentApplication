@@ -1,7 +1,7 @@
 package adapter.createstudent;
 
-import application.port.addstudent.AddStudentInput;
-import application.port.addstudent.AddStudentUseCase;
+import application.port.in.addstudent.AddStudentInput;
+import application.port.in.addstudent.AddStudentUseCase;
 
 public class CreateStudentViewPresentationModel {
     private CreateStudentView createStudentView;

@@ -1,4 +1,4 @@
-package application.port.editstudent;
+package application.port.in.editstudent;
 
 import java.util.UUID;
 

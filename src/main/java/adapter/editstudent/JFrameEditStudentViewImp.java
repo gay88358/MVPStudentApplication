@@ -1,7 +1,7 @@
 package adapter.editstudent;
 
 import adapter.NavigableView;
-import application.port.getstudents.StudentDto;
+import application.port.in.getstudents.StudentDto;
 import domain.Student;
 
 import javax.swing.*;

@@ -5,8 +5,8 @@ import adapter.createstudent.JFrameCreateStudentView;
 import adapter.editstudent.JFrameEditStudentViewImp;
 import application.StudentEventListener;
 import application.StudentModel;
-import application.port.getstudents.StudentDto;
-import application.port.getstudents.GetAllStudentsUseCase;
+import application.port.in.getstudents.StudentDto;
+import application.port.in.getstudents.GetAllStudentsUseCase;
 
 import java.util.List;
 import java.util.UUID;

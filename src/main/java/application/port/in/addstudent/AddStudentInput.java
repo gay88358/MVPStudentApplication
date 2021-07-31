@@ -1,4 +1,4 @@
-package application.port.addstudent;
+package application.port.in.addstudent;
 
 import java.util.Objects;
 

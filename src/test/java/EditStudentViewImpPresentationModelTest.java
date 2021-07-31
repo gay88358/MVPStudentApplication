@@ -1,9 +1,9 @@
 import adapter.editstudent.EditStudentView;
 import adapter.editstudent.EditStudentViewPresentationModel;
 import application.StudentModel;
-import application.port.getstudents.StudentDto;
-import application.port.editstudent.EditStudentInput;
-import application.port.editstudent.EditStudentUseCase;
+import application.port.in.getstudents.StudentDto;
+import application.port.in.editstudent.EditStudentInput;
+import application.port.in.editstudent.EditStudentUseCase;
 import org.junit.jupiter.api.Test;
 
 import java.util.UUID;

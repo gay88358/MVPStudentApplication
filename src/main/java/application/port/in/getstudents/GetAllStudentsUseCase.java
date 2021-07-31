@@ -1,4 +1,4 @@
-package application.port.getstudents;
+package application.port.in.getstudents;
 
 import java.util.List;
 

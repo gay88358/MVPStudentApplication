@@ -6,8 +6,8 @@ import adapter.mainview.StudentMainView;
 import adapter.mainview.StudentMainViewPresentationModel;
 import application.StudentModel;
 import application.StudentService;
-import application.port.getstudents.GetAllStudentsUseCase;
-import application.port.getstudents.StudentDto;
+import application.port.in.getstudents.GetAllStudentsUseCase;
+import application.port.in.getstudents.StudentDto;
 import domain.Student;
 import org.junit.jupiter.api.Test;
 
@@ -72,7 +72,7 @@ class StudentMainViewPresentationModelTest {
     StudentMainViewPresentationModel createPresentationModel(Navigator navigator) {
         StudentMainView studentMainView = new FakeStudentMainView();
         FakeGetAllStudentsUseCase useCase = new FakeGetAllStudentsUseCase();
-        StudentService studentService = new StudentService();
+        StudentService studentService = new StudentService(null);
         StudentMainViewPresentationModel pm = new StudentMainViewPresentationModel(useCase, studentService, navigator);
         pm.setView(studentMainView);
 
@@ -114,7 +114,7 @@ class StudentMainViewPresentationModelTest {
 // SRP violate edit change create, create change edit, main change edit and create
     private StudentMainViewPresentationModel createPresentationModel(StudentMainView studentMainView) {
         FakeGetAllStudentsUseCase useCase = new FakeGetAllStudentsUseCase();
-        StudentService studentService = new StudentService();
+        StudentService studentService = new StudentService(null);
         StudentMainViewPresentationModel pm = new StudentMainViewPresentationModel(useCase, studentService, new FakeNavigator());
         pm.setView(studentMainView);
         return pm;

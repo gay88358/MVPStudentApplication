@@ -5,6 +5,7 @@ import adapter.createstudent.JFrameCreateStudentView;
 import adapter.editstudent.EditStudentViewPresentationModel;
 import adapter.editstudent.JFrameEditStudentViewImp;
 import adapter.mainview.*;
+import adapter.out.InMemoryStudentRepository;
 import application.StudentService;
 import domain.Student;
 
@@ -19,7 +20,7 @@ public class Main implements Navigator {
     }
 
     public static void main(String[] args) {
-        StudentService studentService = new StudentService();
+        StudentService studentService = new StudentService(new InMemoryStudentRepository());
         Main main = new Main(studentService);
         main.start();
     }

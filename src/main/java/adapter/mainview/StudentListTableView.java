@@ -1,6 +1,6 @@
 package adapter.mainview;
 
-import application.port.getstudents.StudentDto;
+import application.port.in.getstudents.StudentDto;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;

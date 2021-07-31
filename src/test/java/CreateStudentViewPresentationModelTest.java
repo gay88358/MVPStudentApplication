@@ -1,8 +1,10 @@
 import adapter.createstudent.CreateStudentView;
 import adapter.createstudent.CreateStudentViewPresentationModel;
-import application.port.addstudent.AddStudentInput;
-import application.port.addstudent.AddStudentUseCase;
+import application.port.in.addstudent.AddStudentInput;
+import application.port.in.addstudent.AddStudentUseCase;
 import org.junit.jupiter.api.Test;
+
+import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -49,8 +51,9 @@ class CreateStudentViewPresentationModelTest {
         private AddStudentInput addStudentInput;
 
         @Override
-        public void execute(AddStudentInput addStudentInput) {
+        public UUID execute(AddStudentInput addStudentInput) {
             this.addStudentInput = addStudentInput;
+            return UUID.randomUUID();
         }
     }
 

@@ -1,18 +1,22 @@
-package application.port.editstudent;
+package application.port.in.getstudents;
 
 import java.util.Objects;
 import java.util.UUID;
 
-public class EditStudentInput {
+public class StudentDto {
     private final UUID id;
     private final String name;
     private final Integer age;
 
-    public EditStudentInput(UUID id, String name, Integer age) {
+    public StudentDto(UUID id, String name, Integer age) {
 
         this.id = id;
         this.name = name;
         this.age = age;
+    }
+
+    public UUID getId() {
+        return id;
     }
 
     public String getName() {
@@ -23,15 +27,11 @@ public class EditStudentInput {
         return age;
     }
 
-    public UUID getId() {
-        return id;
-    }
-
     @Override
     public boolean equals(Object object) {
         if (this == object) return true;
         if (object == null || getClass() != object.getClass()) return false;
-        EditStudentInput that = (EditStudentInput) object;
+        StudentDto that = (StudentDto) object;
         return Objects.equals(id.toString(), that.id.toString()) &&
                 Objects.equals(name, that.name) &&
                 Objects.equals(age, that.age);
