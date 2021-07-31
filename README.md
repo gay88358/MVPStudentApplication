@@ -14,13 +14,13 @@ Model View Presentation is used to isolate ui interaction logic within presentat
 Clean Architecture is used to isolate core domain logic from external dependency like database, ui, framework.
 
 Combine MVP with CA, we can test all logic including interaction logic and domain logic very easily.
-This knid of flexibility is usefull for complex application, which is means that UI, Domain and Persistence has totally different rate of change.
+This knid of flexibility is usefull for complex application, which means that UI, Domain and Persistence has totally different rate of change.
 So that we could change each of one without affecting others.
 
 For example: 
 UI has its data structure used for display.
 Domain could apply usefull design pattern like composite, strategy, decorator.
-Persistence could focus on normalization table.
+Persistence could focus on normalized data structure.
 
 Abstract Architecture: 
 <img width="1680" alt="Screen Shot 2021-07-31 at 1 27 28 PM" src="https://user-images.githubusercontent.com/17316063/127729775-07fcb192-67bb-459b-bfbc-3c8b26fa3bf9.png">
