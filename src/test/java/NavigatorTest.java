@@ -1,5 +1,5 @@
-import adapter.NavigableView;
-import adapter.Navigator;
+import adapter.in.NavigableView;
+import adapter.in.Navigator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,5 +1,5 @@
-import adapter.editstudent.EditStudentView;
-import adapter.editstudent.EditStudentViewPresentationModel;
+import adapter.in.editstudent.EditStudentView;
+import adapter.in.editstudent.EditStudentViewPresentationModel;
 import application.StudentModel;
 import application.port.in.getstudents.StudentDto;
 import application.port.in.editstudent.EditStudentInput;

@@ -1,9 +1,9 @@
-import adapter.NavigableView;
-import adapter.Navigator;
-import adapter.createstudent.JFrameCreateStudentView;
-import adapter.editstudent.JFrameEditStudentViewImp;
-import adapter.mainview.StudentMainView;
-import adapter.mainview.StudentMainViewPresentationModel;
+import adapter.in.NavigableView;
+import adapter.in.Navigator;
+import adapter.in.createstudent.JFrameCreateStudentView;
+import adapter.in.editstudent.JFrameEditStudentViewImp;
+import adapter.in.mainview.StudentMainView;
+import adapter.in.mainview.StudentMainViewPresentationModel;
 import application.StudentModel;
 import application.StudentService;
 import application.port.in.getstudents.GetAllStudentsUseCase;

@@ -1,4 +1,4 @@
-package adapter.createstudent;
+package adapter.in.createstudent;
 
 import application.port.in.addstudent.AddStudentInput;
 import application.port.in.addstudent.AddStudentUseCase;

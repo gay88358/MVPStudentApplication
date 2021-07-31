@@ -1,6 +1,6 @@
-package adapter.createstudent;
+package adapter.in.createstudent;
 
-import adapter.NavigableView;
+import adapter.in.NavigableView;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;

@@ -1,6 +1,6 @@
-package adapter.editstudent;
+package adapter.in.editstudent;
 
-import adapter.NavigableView;
+import adapter.in.NavigableView;
 import application.port.in.getstudents.StudentDto;
 import domain.Student;
 

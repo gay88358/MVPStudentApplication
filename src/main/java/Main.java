@@ -1,10 +1,10 @@
-import adapter.NavigableView;
-import adapter.Navigator;
-import adapter.createstudent.CreateStudentViewPresentationModel;
-import adapter.createstudent.JFrameCreateStudentView;
-import adapter.editstudent.EditStudentViewPresentationModel;
-import adapter.editstudent.JFrameEditStudentViewImp;
-import adapter.mainview.*;
+import adapter.in.NavigableView;
+import adapter.in.Navigator;
+import adapter.in.createstudent.CreateStudentViewPresentationModel;
+import adapter.in.createstudent.JFrameCreateStudentView;
+import adapter.in.editstudent.EditStudentViewPresentationModel;
+import adapter.in.editstudent.JFrameEditStudentViewImp;
+import adapter.in.mainview.*;
 import adapter.out.InMemoryStudentRepository;
 import application.StudentService;
 import domain.Student;

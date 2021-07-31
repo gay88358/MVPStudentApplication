@@ -1,8 +1,8 @@
-package adapter.mainview;
+package adapter.in.mainview;
 
-import adapter.Navigator;
-import adapter.createstudent.JFrameCreateStudentView;
-import adapter.editstudent.JFrameEditStudentViewImp;
+import adapter.in.Navigator;
+import adapter.in.createstudent.JFrameCreateStudentView;
+import adapter.in.editstudent.JFrameEditStudentViewImp;
 import application.StudentEventListener;
 import application.StudentModel;
 import application.port.in.getstudents.StudentDto;

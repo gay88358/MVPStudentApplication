@@ -1,4 +1,4 @@
-package adapter.mainview;
+package adapter.in.mainview;
 
 import application.port.in.getstudents.StudentDto;
 

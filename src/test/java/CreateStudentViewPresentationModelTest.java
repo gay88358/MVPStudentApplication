@@ -1,5 +1,5 @@
-import adapter.createstudent.CreateStudentView;
-import adapter.createstudent.CreateStudentViewPresentationModel;
+import adapter.in.createstudent.CreateStudentView;
+import adapter.in.createstudent.CreateStudentViewPresentationModel;
 import application.port.in.addstudent.AddStudentInput;
 import application.port.in.addstudent.AddStudentUseCase;
 import org.junit.jupiter.api.Test;
