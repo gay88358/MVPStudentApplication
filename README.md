@@ -21,3 +21,6 @@ For example:
 UI has its data structure used for display.
 Domain could apply usefull design pattern like composite, strategy, decorator.
 Persistence could focus on normalization table.
+
+Abstraction Deisgn Class Diagram
+<img width="1680" alt="Screen Shot 2021-07-31 at 1 27 28 PM" src="https://user-images.githubusercontent.com/17316063/127729775-07fcb192-67bb-459b-bfbc-3c8b26fa3bf9.png">
